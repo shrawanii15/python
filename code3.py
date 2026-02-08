@@ -1,0 +1,45 @@
+# Vendor Annual Purchase/Billing Report Program
+name = input("Enter vendor name: ")
+year = input("Enter year of association: ")
+contact = input("Enter contact number: ")
+email = input("Enter email ID: ")
+
+print("\nEnter monthly purchase amounts:")
+
+jan = float(input("January: "))
+feb = float(input("February: "))
+mar = float(input("March: "))
+apr = float(input("April: "))
+may = float(input("May: "))
+jun = float(input("June: "))
+jul = float(input("July: "))
+aug = float(input("August: "))
+sep = float(input("September: "))
+octo = float(input("October: "))
+nov = float(input("November: "))
+dec = float(input("December: "))
+
+annual_total = jan + feb + mar + apr + may + jun + jul + aug + sep + octo + nov + dec
+
+print("\n------ ANNUAL PURCHASE REPORT ------")
+print("Vendor Name:", name)
+print("Year of Association:", year)
+print("Contact Number:", contact)
+print("Email ID:", email)
+
+print("\nMonthly Purchases:")
+print("Jan:", jan)
+print("Feb:", feb)
+print("Mar:", mar)
+print("Apr:", apr)
+print("May:", may)
+print("Jun:", jun)
+print("Jul:", jul)
+print("Aug:", aug)
+print("Sep:", sep)
+print("Oct:", octo)
+print("Nov:", nov)
+print("Dec:", dec)
+
+print("\nTotal Annual Purchase:", annual_total)
+print("------------------------------------")
